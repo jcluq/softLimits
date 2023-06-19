@@ -4,9 +4,9 @@ Elipses are a series of kinetic sculptures which base their design on a string l
 
 
 
-## Solicits
+## softLimits
 
-On Solicits, 5 different nodes are located in the space close to eachother. Each node consists of a string shooter mounted on a servo motor to control the angle of throw. The servo motor is then mounted on top of a rotating platform controlled by a stepper motor. A slip ring is used to connect the servo motor and allow 360+ degrees of rotation without entangling the cables. All the motors are driven by a ESP32 based micro controller which rests on a custom PCB for handling all the copper circuitry.
+On softLimits, 5 different nodes are located in the space close to eachother. Each node consists of a string shooter mounted on a servo motor to control the angle of throw. The servo motor is then mounted on top of a rotating platform controlled by a stepper motor. A slip ring is used to connect the servo motor and allow 360+ degrees of rotation without entangling the cables. All the motors are driven by a ESP32 based micro controller which rests on a custom PCB for handling all the copper circuitry.
 
 The esp32 micro controller on each node allows them to do be controlled via Wi-Fi through OSC messages using UDP protocol. A custom software made in Processing acts as an interface for the nodes, allowing real time visualization of position and speed, as well as sending messages to them in order to change their parameters.
 
